@@ -4,17 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Social Content</title>
 </head>
 <body>
-    
-
-
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-bottom bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button"            data-bs-toggle="collapse" data-bs-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html"><span class="fa fa-home fa-lg">Home</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="register.html"><span class="fa fa-home fa-lg">Register</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="show.html"><span class="fa fa-home fa-lg">Show</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="modify.html"><span class="fa fa-home fa-lg">Modify</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>    
+    <div class="jumbotron">
+        <div class="container bg-secondary">
+            <div class="row justify-content-md-center">
+                    <div class="my-3 d-grid gap-2 col-7 d-md-block mx-auto">
+                        <button class="btn btn-dark" type="button">Movies</button>
+                        <button class="btn btn-dark" type="button">Tv Shows</button>
+                        <button class="btn btn-dark" type="button">Documentary</button>
+                        <button class="btn btn-dark" type="button">Cartoon</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-2">
+                <img src="img/eternals.jpg" class="img-fluid">
+            </div>
+            <div class="col-12 col-sm-8">
+                <div class="row">
+                    <h3>Storyline</h3>
+                </div>
+                <p>Following the events of Avengers: Endgame (2019), an unexpected tragedy forces the Eternals, ancient aliens who have been living on Earth in secret for thousands of years, out of the shadows to reunite against mankind's most ancient enemy, the Deviants.</p>
+            </div>
+            <div class="col-12 col-sm-2">
+                <button type="button" class="btn btn-warning">Save to Database</button>
+            </div>
+        </div>
+        <div class="media">
+            <div class="row row-content align-items-center">
+                <div class="col-12 col-sm-2">
+                    <img class="img-fluid order-last" src="img/dune.jpeg">
+                </div>
+                <div class="col-12 col-sm-8">
+                    <div class="row">
+                        <h3>Storyline</h3>
+                    </div>
+                    <p>A mythic and emotionally charged hero's journey, "Dune" tells the story of Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, who must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive.—Warner Bros.</p>
+                </div>
+                <div class="col-12 col-sm-2">
+                    <button type="button" class="btn btn-warning">Save to Database</button>
+                </div>
+            </div>
+        </div>
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-2">
+                <img src="img/the_harder_they_fall.jpg" class="img-fluid">
+            </div>
+            <div class="col-12 col-sm-8">
+                <div class="row">
+                    <h3>Storyline</h3>
+                </div>
+                <p>When outlaw Nat Love discovers that his enemy Rufus Buck is being released from prison he rounds up his gang to track Rufus down and seek revenge. Those riding with him in this assured, righteously new school Western include his former love Stagecoach Mary, his right and left hand men hot-tempered Bill Pickett and fast drawing Jim Beckwourth and a surprising adversary-turned-ally. Rufus Buck has his own fearsome crew, including "Treacherous" Trudy Smith and Cherokee Bill, and they are not a group that knows how to lose.</p>
+            </div>
+            <div class="col-12 col-sm-2">
+                <button type="button" class="btn btn-warning">Save to Database</button>
+            </div>
+        </div>
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-2">
+                <img src="img/red_notice.jpg" class="img-fluid">
+            </div>
+            <div class="col-12 col-sm-8">
+                <div class="row">
+                    <h3>Storyline</h3>
+                </div>
+                <p>When an Interpol-issued Red Notice the highest level warrant to hunt and capture the world's most wanted goes out, the FBI's top profiler John Hartley (Dwayne Johnson) is on the case. His global pursuit finds him smack dab in the middle of a daring heist where he's forced to partner with the world's greatest art thief Nolan Booth (Ryan Reynolds) in order to catch the world's most wanted art thief, "The Bishop" (Gal Gadot). The high-flying adventure that ensues takes the trio around the world, across the dance floor, trapped in a secluded prison, into the jungle and, worst of all for them, constantly into each other's company.—Netflix</p>
+            </div>
+            <div class="col-12 col-sm-2">
+                <button type="button" class="btn btn-warning">Save to Database</button>
+            </div>
+        </div>
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-2">
+                <img src="img/no_time_to_die.jfif" class="img-fluid">
+            </div>
+            <div class="col-12 col-sm-8">
+                <div class="row">
+                    <h3>Storyline</h3>
+                </div>
+                <p>Bond has left active service and is enjoying a tranquil life in Jamaica. His peace is short-lived when his old friend Felix Leiter from the CIA turns up asking for help. The mission to rescue a kidnapped scientist turns out to be far more treacherous than expected, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.—Universal Pictures</p>
+            </div>
+            <div class="col-12 col-sm-2">
+                <button type="button" class="btn btn-warning">Save to Database</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
